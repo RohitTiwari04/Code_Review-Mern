@@ -53,3 +53,73 @@ code-review-project/
 │
 └── README.md
 
+⚙️ How It Works
+
+User submits source code from the React frontend
+
+Code is sent to the Node.js + Express backend
+
+Backend forwards the code to the Google Gemini API
+
+Gemini analyzes the code and returns:
+
+Errors
+
+Optimization suggestions
+
+Relevant corrections
+
+The feedback is displayed to the user in the UI
+
+🔑 Environment Variables
+
+Create a .env file inside the backend directory:
+
+PORT=5000
+GEMINI_API_KEY=your_google_gemini_api_key
+
+▶️ Installation & Setup
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/code-review-mern.git
+cd code-review-mern
+
+2️⃣ Backend Setup
+cd backend
+npm install
+npm start
+
+3️⃣ Frontend Setup
+cd frontend
+npm install
+npm start
+
+🎯 Future Enhancements
+
+Support for multiple programming languages
+
+User authentication and review history
+
+Syntax highlighting for code editor
+
+Downloadable review reports
+
+Cloud deployment
+
+🤝 Contributing
+
+Contributions are welcome!
+Fork the repository and submit a pull request.
+
+📜 License
+
+This project is licensed under the MIT License.
+
+👨‍💻 Author
+
+Rohit Tiwari
+Full Stack Developer | MERN | AI Enthusiast
+
+
+---
+
+
