@@ -34,7 +34,7 @@ The backend integrates the **Google Gemini API** to analyze code and generate me
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure & Usage Details
 
 ```text
 code-review-project/
@@ -52,32 +52,3 @@ code-review-project/
 │   └── server.js
 │
 └── README.md
-
-
----
-
-## ⚙️ How It Works
-
-1. The user submits source code from the React frontend  
-2. The code is sent to the Node.js + Express backend  
-3. The backend forwards the code to the Google Gemini API  
-4. Gemini analyzes the code and returns:
-   - Errors  
-   - Optimization suggestions  
-   - Relevant corrections  
-5. The feedback is displayed to the user in the UI  
-
----
-
-## 🔑 Environment Variables
-
-Create a `.env` file inside the `backend` directory:
-
-```env
-PORT=5000
-GEMINI_API_KEY=your_google_gemini_api_key
-
-PORT=5000
-GEMINI_API_KEY=your_google_gemini_api_key
-
-
