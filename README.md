@@ -52,3 +52,22 @@ code-review-project/
 │   └── server.js
 │
 └── README.md
+
+
+## ⚙️ How It Works
+
+1. The user submits source code from the **React frontend**.
+2. The submitted code is sent to the **Node.js + Express backend**.
+3. The backend forwards the code to the **Google Gemini API** for analysis.
+4. Gemini analyzes the code and returns:
+   - Errors
+   - Optimization suggestions
+   - Relevant corrections
+5. The analyzed feedback is displayed to the user in the UI.
+
+
+Optimization suggestions
+
+Relevant corrections
+
+The feedback is displayed to the user in the UI
